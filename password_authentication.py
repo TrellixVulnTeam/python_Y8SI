@@ -1,12 +1,12 @@
 # password authentication 
 
 import getpass # importing model 
-database = {'yogesh.khanal':'123', 'khanal.yogesh':'456'} # creating a dictionary and storing keys and value 
+database = {'yogesh':'123', 'khanal':'456'} # creating a dictionary and storing keys and value 
 username = input('Enter your name: ') # userinput for username 
 password = getpass.getpass('Enter your password: ') # userinput for password
 for i in database: # chicking (iterating) the database 
     if username == i: #condition
-        print('user id is varifi ed!') # True
+        print('user id is varified!') # True
         while password != database.get(i): #condition 
             password = getpass.getpass('Wrong password!.... Enter your passwod again: ') # False 
         break 
