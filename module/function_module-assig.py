@@ -206,3 +206,17 @@ else:
     print('\n')
     print('sorry! \ninvalide option')
 cal.__doc__
+
+
+
+
+# weite a program to display the calander from the model 
+import calendar
+# yy = 2021
+# mm = 12
+
+# from user input 
+yy = int(input("Enter a year: "))
+mm = int(input("Enter a month: "))
+# print(datetime.strftime("%X")) 
+print(calendar.month(yy, mm))
