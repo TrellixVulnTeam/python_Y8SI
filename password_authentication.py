@@ -2,9 +2,10 @@
 import getpass # it dpesnot show how the password that we enter 
 import pwinput # when we enter a password it will comvert to astric 
 # importing model 
-database = {'yogesh':'123', 'khanal':'456'} # creating a dictionary and storing keys and value 
+database = {'yogesh.khanal':'456', 'mahesh.khanal':'123'} # creating a dictionary and storing keys and value 
 username = input('Enter your name: ') # userinput for username 
 for i in database.keys():
+    # print(i)
     if username == i:
         # password = getpass.getpass("Enter your password: ")
         password = pwinput.pwinput("Enter your password: ")
@@ -15,5 +16,7 @@ for i in database.keys():
             print("Password couldnot match!")
             break
     else:
-        print('Username is not found!')
-        break
+        continue # if the 1st key:vlaue is not found in i = 1 condition then it will continue again 
+else:
+    print('Username is not found!')
+    
