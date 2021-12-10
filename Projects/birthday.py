@@ -6,8 +6,8 @@ os.chdir(r"E:\python\demo")
 os.mkdir("testing") 
 
 # Enter your authentication details
-GMAIL_ID = 'yogeshkhanal124@gmail.com'
-GMAIL_PSWD = '9843957012**#Y'
+GMAIL_ID = 'your email here'
+GMAIL_PSWD = 'your password here'
 
 
 def sendEmail(to, sub, msg):

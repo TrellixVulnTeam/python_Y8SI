@@ -62,7 +62,7 @@ print(id(q))
 print(p is q) 
 
 
-# use of in in python  
+# use of 'in' in python  
 a = [1, 2, 3]
 print(1 in a)
 print('1' in a)
