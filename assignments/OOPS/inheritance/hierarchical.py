@@ -32,7 +32,7 @@ object2.func3()
 
 
 
-# example of hirachicale inheritance 
+# example of hirarchicale inheritance 
 print()
 class base1:
     def base1(self):
