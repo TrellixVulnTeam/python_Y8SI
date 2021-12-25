@@ -3,14 +3,14 @@ class items:
     @staticmethod
     def is_intiger():
         '''
-        This should bdo soething that has a relationship
-        with the class, but not something that must hbe unique per instance!
+        This should do soething that has a relationship
+        with the class, but not something that must be unique per instance!
         '''
     @classmethod
     def instance_form_something(cls):
         '''
         This should also do somthing that has a relationship 
-        with the class, but usually,those are used to manipulate differerent structure of data to instantiate objects, like we have done with CSV.
+        with the class, but usually, those are used to manipulate differerent structure of data to instantiate objects, like we have done with CSV.
         '''
 
 # the only difference between those :
