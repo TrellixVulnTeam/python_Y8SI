@@ -62,3 +62,31 @@ class Mobile:
 phone = Mobile()
 print(phone.full_name())
 print(phone.phone_price_ram(10000, '4GB'))
+
+
+
+# static method 
+# syntxa 
+@staticmethod
+def method_name():
+    pass
+    # statmenet(s)
+
+@staticmethod
+def method_name():
+    pass
+    # statmenets(s)
+
+
+# example 
+print()
+class Mobile:
+    @staticmethod
+    def show_model(model, price):
+        model1 = model
+        price1 = price 
+        print(f'model: {model}')
+        print(f'price: {price}')
+
+phone = mobile()
+Mobile.show_model('iphone 12 max-pro', '1,200,000|-')
