@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Book - collage project</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/9053de1fd4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav>
+        <!-- left side of nav bar -->
+        <div class="nav-left">
+            <img src="../Facebook/img/logo.png" alt="logo icon" class="logo">
+            <ul>
+                <li><img src="../Facebook/img/notification.png" alt="notification"></li>
+                <li><img src="../Facebook/img/inbox.png" alt="notification"></li>
+                <li><img src="../Facebook/img/video.png" alt="notification"></li>
+            </ul>
+        </div>
+        <!-- right side of navbar -->
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="../Facebook/img/search.png" alt="">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-user-icon online"  onclick="settingsmenutoggle()">
+                <img src="../Facebook/img/profile-pic.png" alt="profile-pic">
+            </div>
+        </div>
+
+        <!-- dropdown/settings menu -->
+        <div class="settings-menu">
+
+            <div id="dark-btn" >
+                <span></span>
+            </div>
+
+            <div class="setting-menu-inner">
+
+                <div class="user-profile">
+                    <img src="../Facebook/img/profile-pic.png" alt="user image">
+                    <div>
+                        <p>John Nick</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="../Facebook/img/feedback.png" alt="user image">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help me to improve new design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="setting-links">
+                    <img src="../Facebook/img/setting.png" alt="settings" class="setting-icon">
+                    <a href="#">Settings and Privacy <img src="../Facebook/img/arrow.png" width="10px" alt="arrow"></a>
+                </div>
+
+                <div class="setting-links">
+                    <img src="../Facebook/img/help.png" alt="settings" class="setting-icon">
+                    <a href="#">Help and Support <img src="../Facebook/img/arrow.png" width="10px" alt="arrow"></a>
+                </div>
+
+                <div class="setting-links">
+                    <img src="../Facebook/img/display.png" alt="settings" class="setting-icon">
+                    <a href="#">Display and Accessibility <img src="../Facebook/img/arrow.png" width="10px" alt="arrow"></a>
+                </div>
+
+                <div class="setting-links">
+                    <img src="../Facebook/img/logout.png" alt="settings" class="setting-icon">
+                    <a href="#">Logout <img src="../Facebook/img/arrow.png" width="10px" alt="arrow"></a>
+                </div>
+
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Body of social Book with 3 column -->
+    <div class="container">
+        <div class="left-sidebar">
+            <!-- left side bar  -->
+            <div class="imp-links">
+                <a href="#"><img src="../Facebook/img/news.png" alt="news">Latest News</a>
+                <a href="#"><img src="../Facebook/img/friends.png" alt="news">Friends</a>
+                <a href="#"><img src="../Facebook/img/group.png" alt="news">Group</a>
+                <a href="#"><img src="../Facebook/img/marketplace.png" alt="news">marketplace</a>
+                <a href="#"><img src="../Facebook/img/watch.png" alt="news">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="../Facebook/img/shortcut-1.png" alt="shortcut">Web Developers</a>
+                <a href="#"><img src="../Facebook/img/shortcut-2.png" alt="shortcut">Web Design Course</a>
+                <a href="#"><img src="../Facebook/img/shortcut-3.png" alt="shortcut">Full Stack Development</a>
+                <a href="#"><img src="../Facebook/img/shortcut-4.png" alt="shortcut">Websites Experts</a>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <!-- main content  -->
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="../Facebook/img/upload.png" alt="story">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src= "/Facebook/img/member-1.png" alt="story">
+                    <p>Salina</p>
+                </div>
+                <div class="story story3">
+                    <img src="../Facebook/img/member-2.png" alt="story">
+                    <p>Harry</p>
+                </div>
+                <div class="story story4">
+                    <img src="../Facebook/img/member-3.png" alt="story">
+                    <p>Safron</p>
+                </div>
+                <div class="story story5">
+                    <img src="../Facebook/img/member-4.png" alt="story">
+                    <p>Ramos</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="../Facebook/img/profile-pic.png" alt="user image">
+                    <div>
+                        <p>John Nick</p>
+                        <small>Public <i class="fas fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="what's on your mind, John?"></textarea>
+                    <div class="add-post-link">
+                        <a href="#"><img src="../Facebook/img/live-video.png" alt="video button"> Live Video</a>
+                        <a href="#"><img src="../Facebook/img/photo.png" alt="video button"> Photo/Video</a>
+                        <a href="#"><img src="../Facebook/img/feeling.png" alt="video button"> Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+
+                    <div class="user-profile">
+                        <img src="../Facebook/img/profile-pic.png" alt="user image">
+                        <div>
+                            <p>John Nick</p>
+                            <span>May 5 2021, 12:00 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Thank you <span>@Easy Tutorials</span> to help me to create this such a beautiful
+                    website.<a href="#">#SocialBook</a> <a href="#">#EasyTutorials</a> </p>
+                <img src="../Facebook/img/feed-image-1.png" alt="feed image" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="../Facebook/img/like-blue.png" alt="like">123</div>
+                        <div><img src="../Facebook/img/comments.png" alt="comments">62</div>
+                        <div><img src="../Facebook/img/share.png" alt="share">23</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="../Facebook/img/profile-pic.png" alt="profile"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+
+                    <div class="user-profile">
+                        <img src="../Facebook/img/profile-pic.png" alt="user image">
+                        <div>
+                            <p>John Nick</p>
+                            <span>May 5 2021, 12:00 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Learn best and unique website developments with <span>@yogeshkhanal</span> and
+                    you can learn many other programming language from their channel.<a href="#">#SocialBook</a> <a
+                        href="#">#yogeshkhanal</a> </p>
+                <img src="../Facebook/img/feed-image-2.png" alt="feed image" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="../Facebook/img/like.png" alt="like">233</div>
+                        <div><img src="../Facebook/img/comments.png" alt="comments">82</div>
+                        <div><img src="../Facebook/img/share.png" alt="share">58</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="../Facebook/img/profile-pic.png" alt="profile"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+
+                    <div class="user-profile">
+                        <img src="../Facebook/img/profile-pic.png" alt="user image">
+                        <div>
+                            <p>John Nick</p>
+                            <span>May 5 2021, 12:00 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Learn best and unique website developments with <span>@Easy Tutorials</span> and
+                    you can learn many other programming language from their channel.<a href="#">#SocialBook</a> <a
+                        href="#">#EasyTutorials</a> </p>
+                <img src="../Facebook/img/feed-image-3.png" alt="feed image" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="../Facebook/img/like.png" alt="like">233</div>
+                        <div><img src="../Facebook/img/comments.png" alt="comments">82</div>
+                        <div><img src="../Facebook/img/share.png" alt="share">58</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="../Facebook/img/profile-pic.png" alt="profile"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post-container">
+                <div class="post-row">
+
+                    <div class="user-profile">
+                        <img src="../Facebook/img/profile-pic.png" alt="user image">
+                        <div>
+                            <p>John Nick</p>
+                            <span>May 5 2021, 12:00 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Learn best and unique website developments with <span>@Easy Tutorials</span> and
+                    you can learn many other programming language from their channel.<a href="#">#SocialBook</a> <a
+                        href="#">#EasyTutorials</a> </p>
+                <img src="../Facebook/img/feed-image-4.png" alt="feed image" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="../Facebook/img/like.png" alt="like">233</div>
+                        <div><img src="../Facebook/img/comments.png" alt="comments">82</div>
+                        <div><img src="../Facebook/img/share.png" alt="share">58</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="../Facebook/img/profile-pic.png" alt="profile"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+
+                    <div class="user-profile">
+                        <img src="../Facebook/img/profile-pic.png" alt="user image">
+                        <div>
+                            <p>John Nick</p>
+                            <span>May 5 2021, 12:00 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Learn best and unique website developments with <span>@Easy Tutorials</span> and
+                    you can learn many other programming language from their channel.<a href="#">#SocialBook</a> <a
+                        href="#">#EasyTutorials</a> </p>
+                <img src="../Facebook/img/feed-image-5.png" alt="feed image" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="../Facebook/img/like-blue.png" alt="like">233</div>
+                        <div><img src="../Facebook/img/comments.png" alt="comments">82</div>
+                        <div><img src="../Facebook/img/share.png" alt="share">58</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="../Facebook/img/profile-pic.png" alt="profile"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="load-more-btn">Load More</button>
+        </div>
+
+        <div class="right-sidebar">
+            <!-- right side bar  -->
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>May</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Books</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Patan Collage project</p>
+                    <a href="#">More info</a>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>June</span>
+                </div>
+                <div class="right-event">
+                    <h4>Media Marketing</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Patan Collage project</p>
+                    <a href="#">More info</a>
+                </div>
+            </div>
+
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="../Facebook/img/advertisement.png" alt="advertisement" class="sidebar-ads">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="../Facebook/img/member-1.png" alt="member">
+                </div>
+                <p>Alison Mina</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="../Facebook/img/member-2.png" alt="member">
+                </div>
+                <p>Ashish Agrawal</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="../Facebook/img/member-3.png" alt="member">
+                </div>
+                <p>Mansi Gawal</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="../Facebook/img/member-4.png" alt="member">
+                </div>
+                <p>Saroj Silwal</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright &copy; 2021 - SocialBook | All Right Reserve</p>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
