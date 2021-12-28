@@ -27,3 +27,25 @@ print(data2)
 f.close()
 print('file read success')
 print()
+
+
+
+f = open('fileread.txt', mode= 'r')
+data1 = f.readline()
+data2 = f.readline()
+print(data1)
+print(data2)
+f.close()
+
+
+f = open('fileread.txt', mode= 'r')
+data = f.readline()
+print(data)
+f.close()
+
+f = open('fileread.txt', mode = 'r')
+data = f.readline()
+print(data)
+for i in data:
+    print(i, end = ' ')
+f.close()
