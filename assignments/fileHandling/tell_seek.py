@@ -1,0 +1,26 @@
+f = open('file1.txt', mode='w')
+f.write('hello this is yogesh checking tell function ')
+f.close()
+print('success')
+print()
+
+# tell()
+f = open ('file1.txt', mode='r')
+print(f.tell())
+data1 = f.read(5)
+print(data1)
+print(f.tell())
+data2 = f.read(3)
+print(data2)
+print(f.tell())
+f.close()
+
+
+# seek(positon)
+f = open('file1.txt')
+print(f.tell())
+f.seek(7) # this removes the 'hello t' from the file and start from 'his yogesh ......'
+print(f.tell())
+data = f.read()
+print(data)
+f.close()
