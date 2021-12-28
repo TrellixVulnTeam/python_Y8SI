@@ -1,1 +1,0 @@
-hello this is python text file which is open and write

@@ -1,0 +1,1 @@
+hello this is python course we are working on file handeling  we are working on writing method and append method 
