@@ -13,5 +13,5 @@ f2.close()
 with open('file.txt') as f:
     data = f.read()
     print(data)
-    print(f.closeed)
-print(f.closed)
+    print(f.closed)
+print(f.close)
