@@ -1,4 +1,4 @@
 import qrcode
 
-image = qrcode.make('https://docs.python.org/3/py-modindex.html')
+image = qrcode.make('https://github.com/yoge-esh')
 image.save('qr.png')
