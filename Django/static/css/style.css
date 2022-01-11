@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+.navigation-bar {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-links {
+  font-size: 21px;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+  color: #181717;
+  font-family: "DM Sans", sans-serif;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    color: #181717;
+    font-family: "Inter", sans-serif;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 30px;
+}
+
+.hero-content {
+  display: flex;
+  gap: 150px;
+  margin-bottom: 136px;
+}
+.hero-title {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  color: #181717;
+  line-height: 1.15;
+  margin-bottom: 64px;
+}
+.hero-para {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  color: #606060;
+  line-height: 1.15;
+  margin-bottom: 32px;
+}
+
+.softwares,
+.skills {
+  display: flex;
+  gap: 30px;
+}
+.softwares {
+  margin-bottom: 72px;
+}
+.skills {
+  margin-bottom: 134px;
+}
+
+.softwares h5,
+.skills h5 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #181717;
+
+  text-decoration: underline;
+  flex-basis: 16%;
+}
+
+.softwares p,
+.skills p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #181717;
+}
+
+.softwares p:nth-child(1) {
+  margin-bottom: 24px;
+}
+.line {
+  height: 2px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 72px;
+  margin-bottom: 192px;
+}
+
+.contact h2 {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  color: #181717;
+  max-width: 19ch;
+}
+
+.contact-links a:nth-child(1) {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  color: #181717;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 27px;
+}
+.contact-links a:nth-child(2) {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #181717;
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 52px;
+}
+
+.footer h6 {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  color: #2429af;
+}
+
+.social-links {
+  display: flex;
+  gap: 30px;
+}
+.social-link {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  color: #181717;
+  text-decoration: none;
+}
+
+/* Work page css */
+
+.work-hero {
+  display: flex;
+  gap: 100px;
+}
+
+.work-hero-title {
+  margin-bottom: 116px;
+}
+
+.work-hero-para {
+  align-self: center;
+}
+
+.project-card {
+  display: flex;
+  gap: 124px;
+  margin-bottom: 106px;
+}
+
+.project-card-title,
+.project-card-subtitle,
+.project-card-para,
+.project-card-link {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #181717;
+}
+
+.project-card-title {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.project-card-subtitle {
+  margin-bottom: 35px;
+}
+
+.project-card-para {
+  font-size: 14px;
+  color: #606060;
+}
+
+.project-card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-card-link{
+  font-weight: 500;
+  text-decoration: underline
+}
+
+.card{
+  margin-top: 114px;
+  margin-bottom: 114px;
+}
+
+.color-grey{
+  color: #606060;
+}
